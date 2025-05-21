@@ -15,9 +15,9 @@ dev = [
 [project]
 authors = [{name = "Derek Wan", email = "d.wan@icloud.com"}]
 dependencies = [
-    "dycw-utilities>=0.121.0",
-    "python-dotenv>=1.1.0",
-    "whenever>=0.8.0",
+  "dycw-utilities>=0.121.0",
+  "python-dotenv>=1.1.0",
+  "whenever>=0.8.0",
 ]
 name = "whenever-bug"
 readme = "README.md"
