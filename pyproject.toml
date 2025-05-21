@@ -8,26 +8,25 @@ requires = ["hatchling"]
 # dependency groups
 [dependency-groups]
 dev = [
-  "dycw-utilities[test]",
+  "pre-commit",
+  "pytest",
 ]
 
 # project
 [project]
 authors = [{name = "Derek Wan", email = "d.wan@icloud.com"}]
 dependencies = [
-  "dycw-utilities>=0.121.0",
-  "python-dotenv>=1.1.0",
   "whenever>=0.8.0",
 ]
 name = "whenever-bug"
 readme = "README.md"
 requires-python = ">= 3.13"
-version = "0.1.1"
+version = "0.1.2"
 
 # bump-my-version
 [tool.bumpversion]
 allow_dirty = true
-current_version = "0.1.1"
+current_version = "0.1.2"
 
 [[tool.bumpversion.files]]
 filename = "src/whenever_bug/__init__.py"
@@ -102,9 +101,6 @@ addopts = [
   "-ra",
   "-vv",
   "--color=auto",
-  "--cov=whenever_bug",
-  "--cov-config=pyproject.toml",
-  "--cov-report=html",
   "--strict-markers",
 ]
 filterwarnings = ["error"]
