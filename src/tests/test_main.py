@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from whenever import TimeDelta
+from whenever_bug import __version__
 
 
 def test_main() -> None:
