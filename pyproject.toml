@@ -101,9 +101,6 @@ addopts = [
   "-ra",
   "-vv",
   "--color=auto",
-  "--cov=whenever_bug",
-  "--cov-config=pyproject.toml",
-  "--cov-report=html",
   "--strict-markers",
 ]
 filterwarnings = ["error"]
