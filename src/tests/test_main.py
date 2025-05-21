@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from dycw_template import __version__
+from whenever import TimeDelta
 
 
 def test_main() -> None:
-    assert isinstance(__version__, str)
+    TimeDelta.parse_common_iso("PT0.001")
