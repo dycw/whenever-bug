@@ -14,7 +14,10 @@ dev = [
 # project
 [project]
 authors = [{name = "Derek Wan", email = "d.wan@icloud.com"}]
-dependencies = []
+dependencies = [
+    "python-dotenv>=1.1.0",
+    "whenever>=0.8.0",
+]
 name = "dycw-template"
 readme = "README.md"
 requires-python = ">= 3.13"
