@@ -15,19 +15,19 @@ dev = [
 [project]
 authors = [{name = "Derek Wan", email = "d.wan@icloud.com"}]
 dependencies = [
-    "dycw-utilities>=0.121.0",
-    "python-dotenv>=1.1.0",
-    "whenever>=0.8.0",
+  "dycw-utilities>=0.121.0",
+  "python-dotenv>=1.1.0",
+  "whenever>=0.8.0",
 ]
 name = "whenever-bug"
 readme = "README.md"
 requires-python = ">= 3.13"
-version = "0.1.0"
+version = "0.1.1"
 
 # bump-my-version
 [tool.bumpversion]
 allow_dirty = true
-current_version = "0.1.0"
+current_version = "0.1.1"
 
 [[tool.bumpversion.files]]
 filename = "src/whenever_bug/__init__.py"
